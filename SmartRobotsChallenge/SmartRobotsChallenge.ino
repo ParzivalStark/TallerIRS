@@ -10,7 +10,7 @@ int in4 = 8;
 
 char option = '9';
 
-void moveForward(int speed){
+void Adelante(int speed){
   analogWrite(enA, speed);
   analogWrite(enB, speed);
   digitalWrite(in1, HIGH);
@@ -19,7 +19,7 @@ void moveForward(int speed){
   digitalWrite(in4, LOW);
 }
 
-void moveLeft  (int speed){
+void Izquierda(int speed){
   analogWrite(enA, speed);
   analogWrite(enB, speed);
   digitalWrite(in1, HIGH);
@@ -28,7 +28,7 @@ void moveLeft  (int speed){
   digitalWrite(in4, HIGH);
 }
 
-void moveRight(int speed){
+void Derecha(int speed){
   analogWrite(enA, speed);
   analogWrite(enB, speed);
   digitalWrite(in1, LOW);
@@ -37,7 +37,7 @@ void moveRight(int speed){
   digitalWrite(in4, LOW);
 }
 
-void moveBackward(int speed){
+void Atras(int speed){
   analogWrite(enA, speed);
   analogWrite(enB, speed);
   digitalWrite(in1, LOW);
@@ -46,7 +46,7 @@ void moveBackward(int speed){
   digitalWrite(in4, HIGH);
 }
 
-void Stop(){
+void Parar(){
   digitalWrite(in1, LOW);
   digitalWrite(in2, LOW);
   digitalWrite(in3, LOW);
@@ -75,5 +75,13 @@ void loop() {
   {
      option = Serial.read();
   }
-  
+  if (option == '0'){
+    Parar()
+  }
+  else if (){
+    
+  }
+  else{
+    Parar()
+  }
 }
