@@ -28,7 +28,7 @@ class App:
     def start(self):
         self.widgets()
         self.root.title("Smart Robots Challenge")
-        self.root.iconphoto(False, PhotoImage(file='icon.png'))
+        #self.root.iconphoto(False, PhotoImage(file='icon.png'))
         self.root.mainloop()
 
     def widgets(self):
@@ -116,7 +116,7 @@ class App:
             self.model = None
 
     def startVideo(self):
-        self.cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
+        self.cap = cv2.VideoCapture(0)
         self.visualize()
 
     def finishVideo(self):
