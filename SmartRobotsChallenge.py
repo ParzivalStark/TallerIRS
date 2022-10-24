@@ -174,7 +174,7 @@ class App:
                     frame = cv2.resize(frame, (224,224), interpolation = cv2.INTER_AREA)
                     img = frame.copy()
                     img.resize(1,224,224,3)
-                    img = img / 255.
+                    img = (img / 127.5) - 1
                     predictions = self.model.predict(img, verbose=0)
                     y_pred = np.argmax(predictions, axis=-1)
                     lab = y_pred[0]
