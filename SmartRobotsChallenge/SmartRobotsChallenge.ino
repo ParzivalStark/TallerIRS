@@ -8,7 +8,7 @@ int enB = 9;
 int in3 = 10;
 int in4 = 8;
 
-char option = '9';
+char opcion = '9';
 
 void Adelante(int speed){
   analogWrite(enA, speed);
@@ -73,15 +73,21 @@ void setup() {
 void loop() {
   if (Serial.available()>0) 
   {
-     option = Serial.read();
+     opcion = Serial.read();
   }
-  if (option == '0'){
-    Parar()
-  }
-  else if (){
-    
-  }
+  /* Ejemplo: 0 Parar
+  if (opcion == '0'){
+    Parar();
+  }  */
+
+  ///////// Escribir tus funciones a partir de aqui /////////////
+
+
+
+
+  ////////////////////// No editar //////////////////////////////
+  
   else{
-    Parar()
+    Parar();
   }
 }
