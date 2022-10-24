@@ -30,7 +30,7 @@
  b) Abrir el archivo [SmartRobotsChallenge.ino](SmartRobotsChallenge/SmartRobotsChallenge.ino)  
  c) Editar el final del código siguiendo el ejemplo. Usar condiciones if comparando la variable "opcion" con el número que aparece en el archivo labels.txt y usar la función del movimiento que corresponda, entre parentesis se pone la velocidad de 0 a 255 excepto en la función Parar().  
  d) Por ejemplo si en el archivo labels dice "2 Izquierda" entonces se debe poner if (option == '2'){Izquierda(255);}  
- e) En Herramientas seleccionar la tarjeta "Arduino UNO" y el puerto correspondiente.
+ e) En Herramientas seleccionar la tarjeta "Arduino UNO" y el puerto correspondiente.  
  f) Compilar y subir programa al Arduino.  
  
 #### 4. Probar todo junto  
