@@ -45,6 +45,7 @@ python -m pip install tk
 python -m pip install pillow  
 python -m pip install opencv-python  
 python -m pip install tensorflow  
+python -m pip install imutils  
 python -m pip install numpy  
 python -m pip install pyserial  
 
