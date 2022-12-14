@@ -10,9 +10,9 @@
  b) Crear y renombrar 5 clases (Adelante, Atras, Izquierda, Derecha y Parar)  
  c) Usar la webcam para tomar fotos de cada clase. Se recomienda tomar al menos 150 imágenes por clase, así como mover la mano haciendo la misma seña.  *Importante: se clasifica todo el cuadrado, por lo que el fondo puede afectar.*  
  d) Dar a train model para empezar el entrenamiento del modelo. Puede tardar en empezar, una vez que lo haga aparecera una barra de progreso. No se  recomienda mover las opciones avanzadas.  
- d) Una vez terminado el entrenamiento se puede probar el modelo con la webcam, aparecerán unas barras que se llenan de acuerdo a la seña que se cree  que se esta haciendo.  
- e) Exportar el modelo. Ir a la opción del medio (Tensorflow) y descargarlo en Keras.  
- f) Descomprimir el archivo descargado. Importante saber donde se guardaron los archivos resultantes.  
+ e) Una vez terminado el entrenamiento se puede probar el modelo con la webcam, aparecerán unas barras que se llenan de acuerdo a la seña que se cree  que se esta haciendo.  
+ f) Exportar el modelo. Ir a la opción del medio (Tensorflow) y descargarlo en Keras.  
+ g) Descomprimir el archivo descargado. Importante saber donde se guardaron los archivos resultantes.  
  
 #### 2. Python (Aquí se hace la clasificación para mandar los movimientos a Arduino)  
  a) Descargar la última versión de <a href="https://www.python.org/downloads/" target="_blank"> Python</a>. Asegurarse de marcar la opción "Add Python to  Path" antes de iniciar la instalación y la opción "Disable path length limit" al finalizar la instalación.  
